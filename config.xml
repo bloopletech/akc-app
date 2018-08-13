@@ -7,10 +7,9 @@
     <author email="i@bloople.net" href="https://i.bloople.net">
     Brenton Fletcher
   </author>
-    <content src="index.html" />
+    <content src="https://akc.link/" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
-    <allow-navigation href="https://*.akc.link/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -24,5 +23,8 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <engine name="android" spec="7.0.0" />
+    <plugin name="cordova-plugin-android-window-background" spec="^1.0.2">
+        <variable name="WINDOW_BACKGROUND_COLOR" value="#f1efc0" />
+    </plugin>
+    <engine name="android" spec="^7.0.0" />
 </widget>
