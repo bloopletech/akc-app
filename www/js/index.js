@@ -28,6 +28,7 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
+        location.replace('https://akc.link/');
     },
 
     // Update DOM on a Received Event
