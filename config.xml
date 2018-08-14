@@ -10,6 +10,7 @@
     <content src="https://akc.link/" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
+    <allow-navigation href="*://*.akc.link/*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -27,4 +28,5 @@
         <variable name="WINDOW_BACKGROUND_COLOR" value="#f1efc0" />
     </plugin>
     <engine name="android" spec="^7.0.0" />
+    <engine name="ios" spec="4.5.5" />
 </widget>
